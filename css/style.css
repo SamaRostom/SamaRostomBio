@@ -44,7 +44,12 @@ section {
   /* width: 100%; */
   margin: auto;
   padding: 0 50px;
+
+  margin-bottom: 5rem;
 }
 .card {
   border-radius: 20px;
+  background-color: var(--button-color);
+  border-color: var(--g-color);
+  border-width: 3.5px;
 }

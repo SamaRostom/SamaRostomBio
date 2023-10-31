@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sama Rostom</title>
     <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -18,6 +22,7 @@
     <link rel="stylesheet" href="./css/home.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/skills.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
@@ -103,10 +108,15 @@
       <div class="about-content">
         <div class="about-title">
           <h1>About Me</h1>
-          <button type="button" class="btn btn-dark download-button">
-            Download CV
-            <i class="fas fa-download" style="color: #ffffff"></i>
-          </button>
+          <a
+            href="https://samarostom.github.io/SamaRostomBio/Resume.pdf"
+            download="Sama Rostom CV.pdf"
+          >
+            <button type="button" class="btn btn-dark download-button">
+              Download CV
+              <i class="fas fa-download" style="color: #ffffff"></i>
+            </button>
+          </a>
         </div>
         <p class="about-p">
           I'm Full Stack Developer and Computer Science graduate from Misr
@@ -117,11 +127,11 @@
           strong foundation in data structures and algorithms supports my
           dedication to creating user-friendly solutions.
         </p>
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center row-about">
           <div class="col">
             <div class="card about-card" style="width: 13rem; height: 16rem">
               <img src="./img/web.png" class="card-img-top" alt="..." />
-              <div class="card-body">
+              <div class="card-body about-body">
                 <h4 class="card-title">
                   Full Stack <br />
                   Developer
@@ -132,7 +142,7 @@
           <div class="col">
             <div class="card about-card" style="width: 13rem; height: 16rem">
               <img src="./img/mobile.png" class="card-img-top" alt="..." />
-              <div class="card-body">
+              <div class="card-body about-body">
                 <h4 class="card-title">
                   Mobile <br />
                   Developer
@@ -143,7 +153,7 @@
           <div class="col">
             <div class="card about-card" style="width: 13rem; height: 16rem">
               <img src="./img/backend.png" class="card-img-top" alt="..." />
-              <div class="card-body">
+              <div class="card-body about-body">
                 <h4 class="card-title">
                   Full Stack <br />
                   Developer
@@ -157,15 +167,63 @@
     <!------------ Skills ------------>
     <section class="skills container" id="skills">
       <div class="skills-content">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+        <h1 class="skills-title">Skills</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3 row-skills">
           <div class="col">
-            <div class="card skills-card" style="width: 13rem; height: 16rem">
-              <img src="./img/backend.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h4 class="card-title">
-                  Full Stack <br />
-                  Developer
-                </h4>
+            <div class="card skills-card">
+              <div class="card-body skills-body">
+                <div class="skills-ctitle">
+                  <i class="bx bx-code-block"></i>
+                  <h4>Web Development</h4>
+                </div>
+                <p>
+                  Developing the front-end and back-end phases of the web
+                  application using HTML,CSS, and various JS frameworks.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card skills-card">
+              <div class="card-body skills-body">
+                <div class="skills-ctitle">
+                  <i class="bx bxs-devices"></i>
+                  <h4>Mobile Development</h4>
+                </div>
+                <p>
+                  Developing a ready to launch mobile application for both IOS
+                  and Android Devices using Flutter & Dart.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card skills-card">
+              <div class="card-body skills-body">
+                <div class="skills-ctitle">
+                  <i class="bx bxs-chip"></i>
+                  <h4>Machine Learning</h4>
+                </div>
+                <p>
+                  Developing machine learning models such as SVM, Neural
+                  Networks, and more to calculate specific aspects. I also
+                  possess machine learning expertise deep learning, and image
+                  inpainting using Stable Diffusion.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card skills-card">
+              <div class="card-body skills-body">
+                <div class="skills-ctitle">
+                  <i class="bx bx-code-alt"></i>
+                  <h4>Software Engineering</h4>
+                </div>
+                <p>
+                  Designing, developing, and maintaining software systems using
+                  various software engineering methodologies.
+                </p>
               </div>
             </div>
           </div>

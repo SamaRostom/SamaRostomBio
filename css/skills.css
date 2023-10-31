@@ -2,3 +2,18 @@
   width: 32rem;
   height: 11rem;
 }
+
+.skills-title {
+  margin-bottom: 2rem;
+}
+.skills-ctitle {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.skills-body h4 {
+  color: var(--w-color);
+}
+.skills-body p {
+  color: var(--g-color);
+}

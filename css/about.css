@@ -50,15 +50,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--button-color);
-  border-color: var(--g-color);
-  border-width: 3.5px;
 }
 .card-title {
   color: var(--w-color);
   /* margin-top: 3rem; */
 }
-.card-body {
+.about-body {
   /* display: flex;
   flex-direction: column;
   justify-content: center;
