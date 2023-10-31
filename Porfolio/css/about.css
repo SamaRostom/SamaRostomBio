@@ -1,0 +1,38 @@
+:root {
+  --main-color: #8c52ff;
+  --hover-color: #d9d9d9;
+  --b-color: black;
+  --w-color: #ffffff;
+  --g-color: #a6a6a6;
+  --background-color: #050816;
+  --button-color: #121229;
+  --card-color: #251c4c;
+  --circle-color: #35355b;
+}
+/* .about {
+  
+} */
+.about-p {
+  color: var(--g-color);
+  /* font-size: 1.1em; */
+  width: 70%;
+  margin-top: 25px;
+}
+.about-title {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+.download-button {
+  border-color: var(--g-color);
+  border-radius: 20px;
+  background-color: var(--button-color);
+}
+.row {
+  margin-top: 4rem;
+  margin-left: 4rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}

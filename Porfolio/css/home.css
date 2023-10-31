@@ -1,0 +1,128 @@
+:root {
+  --main-color: #8c52ff;
+  --hover-color: #d9d9d9;
+  --b-color: black;
+  --w-color: #ffffff;
+  --g-color: #a6a6a6;
+  --background-color: #050816;
+  --button-color: #121229;
+  --card-color: #251c4c;
+  --circle-color: #35355b;
+}
+
+.name {
+  font-size: 25px;
+  color: var(--w-color);
+  text-align: center;
+  margin-top: 20px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.home {
+  /* max-width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 80vh; */
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: var(--hover-color); /* Change the text color to var(--w-color) */
+  font-size: 20px;
+}
+
+.active {
+  color: var(--g-color) !important;
+}
+.home-content {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hello-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hello-text h3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5 rem;
+  font-size: 1.1rem;
+  color: var(--main-color);
+}
+.hello-text h3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  left: -15px;
+  width: 20px;
+  height: 2px;
+  background-color: var(--main-color);
+}
+.hello-text h3::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  right: -35px;
+  width: 20px;
+  height: 2px;
+  background-color: var(--main-color);
+}
+.intro {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.name-color {
+  color: var(--main-color);
+}
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  background: var(--w-color);
+  color: var(--circle-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.profile .fab {
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 50%;
+  color: var(--b-color);
+  background: var(--w-color);
+}
+.profile .fab:hover {
+  background: var(--main-color);
+  transition: 0.3s all linear;
+}
