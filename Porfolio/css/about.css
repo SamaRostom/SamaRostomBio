@@ -25,9 +25,15 @@
   /* flex-wrap: wrap; */
 }
 .download-button {
+  font-size: small;
+  height: 2.5rem;
+  width: 8.5rem;
   border-color: var(--g-color);
   border-radius: 20px;
   background-color: var(--button-color);
+  border-width: 2.5px;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
 }
 .row {
   margin-top: 4rem;
@@ -35,4 +41,28 @@
   /* display: flex;
   justify-content: center;
   align-items: center; */
+}
+.card-img-top {
+  width: 4.5rem;
+  margin-top: 2rem;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--button-color);
+  border-radius: 20px;
+  border-color: var(--g-color);
+  border-width: 3.5px;
+}
+.card-title {
+  color: var(--w-color);
+  /* margin-top: 3rem; */
+}
+.card-body {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 1.3rem;
 }
