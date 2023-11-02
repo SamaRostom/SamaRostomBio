@@ -1,6 +1,8 @@
 .skills-card {
-  width: 32rem;
-  height: 11rem;
+  width: 33.5rem;
+  height: 11.5rem;
+  /* margin-right: 5rem;
+  margin-bottom: 2rem; */
 }
 
 .skills-title {
@@ -16,4 +18,13 @@
 }
 .skills-body p {
   color: var(--g-color);
+}
+.skills-ctitle i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.5em 0.6em;
+  margin-bottom: 0.7rem;
 }

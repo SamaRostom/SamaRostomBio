@@ -1,0 +1,8 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.projects-title h6 {
+  color: var(--g-color);
+}
